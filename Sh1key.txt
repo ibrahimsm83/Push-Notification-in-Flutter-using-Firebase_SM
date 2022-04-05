@@ -1,0 +1,53 @@
+keytool -list -v -keystore C:\Users\SOFTMASTER\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+keytool -list -v -alias androiddebugkey -keystore C:\Users\softmaster\.android\debug.keystore
+
+18-7-21
+C:\Program Files\Java\jdk-15.0.2\bin>keytool -list -v -alias androiddebugkey -keystore C:\Users\softmaster\.android\debug.keystore
+Enter keystore password:
+Alias name: androiddebugkey
+Creation date: Jul 18, 2021
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: C=US, O=Android, CN=Android Debug
+Issuer: C=US, O=Android, CN=Android Debug
+Serial number: 1
+Valid from: Sun Jul 18 01:28:03 PDT 2021 until: Tue Jul 11 01:28:03 PDT 2051
+Certificate fingerprints:
+         SHA1: 1B:3C:CD:EB:C3:4B:FD:A9:03:5C:58:FF:5B:76:49:54:4F:22:F8:17
+         SHA256: 75:D2:CC:76:1F:06:9F:68:B9:5F:0B:D1:1F:5D:91:61:D8:86:BC:88:1B:D0:FF:47:35:D1:DA:5C:61:A6:B7:7E
+Signature algorithm name: SHA1withRSA (weak)
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 1
+
+keytool -list -v -keystore "C:\Users\SOFTMASTER\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+Warning:
+The certificate uses the SHA1withRSA signature algorithm which is considered a security risk. This algorithm will be disabled in a future update.
+
+i5 2nd gen pc key
+
+
+C:\Program Files\Java\jdk-16.0.1\bin>keytool -list -v -keystore "C:\Users\SOFTMASTER\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+Alias name: androiddebugkey
+Creation date: Oct 16, 2021
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: C=US, O=Android, CN=Android Debug
+Issuer: C=US, O=Android, CN=Android Debug
+Serial number: 1
+Valid from: Sat Oct 16 13:54:24 PDT 2021 until: Mon Oct 09 13:54:24 PDT 2051
+Certificate fingerprints:
+         SHA1: C4:5E:03:04:5B:05:8B:D0:4B:CF:2B:0F:0D:0A:CE:64:EE:14:89:B6
+         SHA256: 1B:DC:D5:32:49:B2:2D:47:E5:87:1C:86:5A:31:77:EA:73:2F:77:A9:4E:5C:55:0B:90:00:7F:D0:4F:A3:E0:66
+Signature algorithm name: SHA1withRSA (weak)
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 1
+
+Warning:
+The certificate uses the SHA1withRSA signature algorithm which is considered a security risk. This algorithm will be disabled in a future update.
+
+C:\Program Files\Java\jdk-16.0.1\bin>
+
